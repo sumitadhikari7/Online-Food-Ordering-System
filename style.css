@@ -1,0 +1,55 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(252, 248, 221, 1);
+    height: 60px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    left: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.links a:hover {
+    color: rgb(247, 153, 2);
+}
+.left,.right,.center{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.center{
+    justify-content: center;
+    flex: 1;
+}
+.left{
+    flex: 1;
+    justify-content: flex-start;
+}
+.right{
+    justify-content: flex-end;
+}
+
